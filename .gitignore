@@ -1,11 +1,11 @@
 # WordPress core (managed by updates, not by Git)
-wp-admin/
-wp-includes/
-wp-*.php
-index.php
-license.txt
-readme.html
-xmlrpc.php
+#wp-admin/
+#wp-includes/
+#wp-*.php
+#index.php
+#license.txt
+#readme.html
+#xmlrpc.php
 
 # Sensitive config — contains DB credentials
 wp-config.php
