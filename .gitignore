@@ -1,0 +1,39 @@
+# WordPress core (managed by updates, not by Git)
+wp-admin/
+wp-includes/
+wp-*.php
+index.php
+license.txt
+readme.html
+xmlrpc.php
+
+# Sensitive config — contains DB credentials
+wp-config.php
+.htaccess
+.htaccess.bk
+.env
+
+# Private folders
+.private/
+.tmb/
+
+# Uploads (usually large, managed separately)
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/ai1wm-backups/
+
+# Backups
+*.zip
+*.wpress
+*.sql
+*.sql.gz
+*.tar.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
